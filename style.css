@@ -1,0 +1,34 @@
+body {
+
+    background-color: rgb(148, 67, 128);
+    color: rgb(99, 40, 79);
+    font-family: "Sofadi One", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #588181;
+    color: rgb(2, 13, 22);
+    font-family: "Sofadi One", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 60%;
+}

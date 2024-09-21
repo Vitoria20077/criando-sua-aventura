@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choices</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario.passo-0.jpeg" alt="">
+            <p>Você é um aventureiro que entrou em uma floresta mágica em busca de um tesouro perdido. Ao longo do
+                caminho, você enfrentará diversas escolhas que moldarão sua jornada. Você chega à entrada da floresta.
+                Há duas trilhas à sua frente.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir pela trilha iluminada.</button>
+            <button class="btn-proximo" data-proximo="2">Optar pela trilha sombria.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você encontra um grupo de fadas que oferecem ajuda, mas pedem algo em troca.</p>
+            <button class="btn-proximo" data-proximo="3">Ajudar as fadas em sua tarefa.
+            </button>
+            <button class="btn-proximo" data-proximo="4">Recusar e seguir em frente.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Se você optou pela trilha sombria, o lobo se aproxima.</p>
+            <button class="btn-proximo" data-proximo="5">Tentar acalmar o lobo.</button>
+            <button class="btn-proximo" data-proximo="6">Fugir rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>as fadas dão a você um feitiço de proteção. Você agradece e segue em frente</p>
+            <button class="btn-proximo" data-proximo="7">o lago magico</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>você não ajuda as fadas, pois afirma não ter tempo. Você segue jornada e chega em um belo lago</p>
+            <button class="btn-proximo" data-proximo="7">o lago magico</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você acalma o lobo, que depois de ver que você é uma boa pessoa, te ajuda a seguir seu caminho para um
+                belo lago</p>
+            <button class="btn-proximo" data-proximo="7">o lago magico</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>você consegue fugir do lobo, mas acab se perdendo. Por mais deseperadora que a situação parecesse, você
+                encontra seu caminho para um belo lago</p>
+            <button class="btn-proximo" data-proximo="7">o lago magico</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>você passa por um belo lago com aguas cristalinas, após admirar um pouco a vista, você avista de longe
+                uma caverna.... espera! é ela,a caverna que você estava procurando, você tem certeza disso! o tesouro
+                está lá dentro.....</p>
+            <button class="btn-proximo" data-proximo="8">escolha final</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="cenario.sala do tesouro.jpg"  alt="">
+            <p>Você entra na caverna, era escura e umida, parecia perturbador. Até que você avista uma luz la no fundo e
+                decide pesegui-la. Quando você chega ao encontro da luz, você esta em uma sala bonita e bem iluminada,
+                com majestosos tesouros dentro. Mas é claro que você não poderia somente pegar os tesouros, havia um
+                velho homem dentro da sala, ele era o guardião do tesouro, ele disse que você só poderia escolher uma
+                coisa para levar para casa, uma delas lhe traria riqueza e felicidade, a outra lhe mandaria direto para
+                sua casa, e você esqueceria sobre as floresta para sempre</p>
+            <button class="btn-proximo" data-proximo="9">taça de prata</button>
+            <button class="btn-proximo" data-proximo="10">espelho de ouro</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="final feliz.jpg"  alt="">
+            <p>você conseguiu! ao escolher a taça de prata, você demonstrou sua gentileza e humildade, conseguindo assim
+                levar o tesouro com você e seria para sempre bem-vindo na floresta</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="final ruim.jpg"  alt="">
+            <p>ao escolher o espelho de ouro, você se mostrou ganancioso e indigno do tesouro e da floresta. Você foi
+                transportado direto para casa e se esqueceu completamente da floresta</p>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
